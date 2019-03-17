@@ -1,0 +1,62 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  email: "e-mail"
+  head_title: "Wanna cook..."
+  find_b: "Find"
+  hello: "Hello world"
+  main: "Main"
+  entry: "Entrance"
+  exit: "Exit"
+  login: "Login"
+  notreg: "Not registered?"
+  createac: "Create account"
+  password: "password"
+  password_c: "password confirm"
+  create_f: "CREATE"
+  all_recipe: "All recipe"
+  add_recipe: "Add recipe"
+  culinary_r: "Culinary recipe"
+  add_title: "Adding a new recipe"
+  message_inp: '<p>If you want &nbsp;<strong>to write an article</strong>, please:</p><hr /><ul><li>do not copy recipes from other sites;</li><li>add only what you like;</li><li>do not be afraid&nbsp;experiment&nbsp;<img src="https://html-online.com/editor/tinymce4_6_5/plugins/emoticons/img/smiley-laughing.gif" alt="laughing" />.</li></ul>'
+  reciep_p: '<h3 style="text-align: center;"><strong>New recipe parametrs:</strong></h3>'
+  reciep_h: "Recipe header"
+  reciep_href: "Link to the picture"
+  reciep_des: '<h4>Describe your recipe in all details:</h4>'
+  button: "Click"
+  already: "Already registered?"
+  sign_in: "Sign In"
+  header_inp: '<h2>Adding a new recipe</h2><br>'
+  destroy: "Remove"
+  eror: '<h2 style="text-align: center;"><strong>Sorry, but there is no such recipe!</strong></h2><p>&nbsp; &nbsp; &nbsp;You can add such <a href="http://localhost:3000/grad/input">recipe</a></p><p>or redirected <a href="http://localhost:3000/grad/newsx"> to main page</a>.</p>'
+  by: "Created by: "
+  add_err: "All fields must be filled!"

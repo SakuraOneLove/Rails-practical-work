@@ -1,0 +1,31 @@
+
+ru:
+  email: "почта"
+  head_title: "Хочу приготовить..."
+  find_b: "Найти"
+  main: "Главная"
+  entry: "Вход"
+  exit: "Выход"
+  login: "Залогиниться"
+  notreg: "Не зарегистрированы?"
+  createac: "Создать аккаунт"
+  password: "пароль"
+  password_c: "повтор пароля"
+  create_f: "СОЗДАТЬ"
+  all_recipe: "Все рецепты"
+  add_recipe: "Добавить рецепт"
+  culinary_r: "Кулинарные рецепты"
+  add_title: "Добавить новый рецепт"
+  message_inp: '<p>Если вы собираетесь&nbsp;<strong>написать рецепт</strong>, пожалуйста:</p><hr /><ul><li>не копируйте рецепты с других сайтов;</li><li>добавляйте только то, что вам нравиться;</li><li>не бойтесь экспериментировать&nbsp;<img src="https://html-online.com/editor/tinymce4_6_5/plugins/emoticons/img/smiley-laughing.gif" alt="laughing" />.</li></ul>'
+  reciep_p: '<h3 style="text-align: center;"><strong>Параметры нового рецепта:</strong></h3>'
+  reciep_h: "Заголовок рецепта"
+  reciep_href: "Ссылка на аватарку рецепта"
+  reciep_des: '<h4>Опишите ваш рецепт во всех подробностях:</h4>'
+  button: "Готово"
+  already: "Уже зарегистрированы?"
+  sign_in: "Войти"
+  header_inp: '<h2>Добавление нового рецепта</h2><br>'
+  destroy: "Удалить"
+  eror: '<h2 style="text-align: center;"><strong>Извини, но такого рецепта пока нет!</strong></h2><p>&nbsp; &nbsp; &nbsp;Вы можете добавить такой <a href="http://localhost:3000/grad/input">рецепт</a></p><p>или вернуться <a href="http://localhost:3000/grad/newsx">на главную</a>.</p>'
+  by: "Созданно: "
+  add_err: "Все поля должны быть заполнены!"

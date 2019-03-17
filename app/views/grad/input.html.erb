@@ -1,0 +1,15 @@
+<% flash.each do |name, msg| %>
+  <%= content_tag :div, msg, id: "flash_#{name}" %>
+<% end %>
+<%= t('header_inp').html_safe %>
+<div class="plainlinks" style="border:1px solid #a2a9b1; padding:0.25em 1em; margin-bottom:1em; background:#F5FАFF; color:black;">
+  <%= t('message_inp').html_safe %>
+</div><br>
+<%= t('reciep_p').html_safe %>
+<%= form_with(url: "/grad/addnewar", :method => "post") do %>
+  <%= text_field_tag(:header, nil, placeholder: t('reciep_h')) %><br><br>
+  <%= text_field_tag(:reff, nil, placeholder: t('reciep_href')) %><br>
+  <%=t('reciep_des').html_safe %>
+  <%= cktext_area(:rec,:text) %>
+  <%= submit_tag(t('button'), class:"btn btn-primary") %>
+<% end %>

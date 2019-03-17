@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Main page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <%= @result.html_safe %>
+          <% unless @auid.nil? %>
+          <p> <%= t('by') + User.find(@auid)[:email] %></p>
+            <% if @auid == User.find_by(email: current_user.email).id %>
+              <br><%= link_to t('destroy'), grad_deletear_path + "&arid=#{@arid}", method: :delete %>
+            <% end %>
+          <% end %>
+      </div>
+    </div>
+
+  </body>
+</html>

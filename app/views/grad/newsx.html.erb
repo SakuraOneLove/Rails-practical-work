@@ -1,0 +1,26 @@
+<style>
+  body{
+    background-image: url(https://img1.akspic.com/image/4054-tea-saucer-cafe-cup-caffeine-1366x768.jpg);
+  }
+    input[type=text]{
+      background-color: whitesmoke;
+    }
+  .bt {
+    width: 100%;
+    margin-top: 10px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 1px;
+    font-size: 20px;
+  }
+
+</style>
+<div align="left">
+<%= link_to_unless_current "Russian",  locale: "ru" %>
+<%= link_to_unless_current "English", locale: "en" %>
+</div>
+<h1 class="text-search" align="center" ><span><%= t('head_title') %></span></h1><br>
+<%= form_tag("/grad/output", method: :get, class: 'form-search') do %>
+  <%= text_field_tag :text, nil, class: "form-control"%>
+  <%= submit_tag(t('find_b'), class: 'btn btn-primary bt') %>
+<% end %>
